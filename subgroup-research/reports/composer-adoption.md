@@ -1,5 +1,7 @@
 # Composer adoption across public PHP repositories
 
+**data freshness: 2025-10-14 05:11:35.999 UTC. query run: 2026-09-28**
+
 > These are assumed metrics and should not be treated as final. The query behind them still needs to be reasoned and refined.
 
 **Question:** of the public repositories that contain PHP, how many take part in the Composer ecosystem, and how do they lay their projects out?

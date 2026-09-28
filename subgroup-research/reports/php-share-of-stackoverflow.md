@@ -1,5 +1,7 @@
 # PHP's share of Stack Overflow questions
 
+**data freshness: 2026-08-29 23:59:12.000 UTC (Data Explorer), 2022-11-25 01:03:23.684 UTC (BigQuery). query run: 2026-09-28**
+
 > These are assumed metrics and should not be treated as final. The queries behind them still need to be reasoned and refined.
 
 **Question:** how has the volume of PHP questions on Stack Overflow, and PHP's share of all questions, moved over time?

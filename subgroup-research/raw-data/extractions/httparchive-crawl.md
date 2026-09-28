@@ -75,4 +75,6 @@ ORDER BY date;
 
 The numbers this query returned are in [PHP on the public web](../../reports/php-on-the-public-web.md).
 
+The same table is queried a second way in [`httparchive.crawl`, PHP applications](httparchive-php-applications.md), which counts named PHP applications rather than the bare `PHP` detection.
+
 Back to the [source list](../sources.md), the [list of extractions](../sources.md#2-extractions) or the [reports index](../../reports/README.md).
