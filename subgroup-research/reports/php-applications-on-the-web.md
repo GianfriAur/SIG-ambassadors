@@ -2,8 +2,6 @@
 
 **crawl: 2025-07-01, mobile, root pages only. data freshness: 2026-08-17 23:14:05.000 UTC. query run: 2026-09-28**
 
-> Real query results rather than assumed metrics. The queries remain a first draft, and the platform list behind them is still incomplete in a way the run measured. See [What is wrong with these numbers](#what-is-wrong-with-these-numbers).
-
 **Question:** the crawl says PHP is on half the web. Half the web running *what*? Which named applications account for it, and how much of the CMS and ecommerce layer do they hold?
 
 **Extractions:** [`httparchive.crawl`, PHP applications](../raw-data/extractions/httparchive-php-applications.md)
