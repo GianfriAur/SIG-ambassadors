@@ -13,6 +13,7 @@ The results of the raw-data extractions, one file per research question.
 | [Top 10 long running PHP](top-long-running-php.md) | Which PHP projects have been running longest and are still running now? | [`github-php-repositories`](../raw-data/extractions/github-php-repositories.md), [`github-php-longevity`](../raw-data/extractions/github-php-longevity.md) |
 | [The licences of the PHP ecosystem](php-licences.md) | Under what terms is PHP published, and can a company pick a PHP library off the shelf? | [`github-repos-licences`](../raw-data/extractions/github-repos-licences.md) |
 | [LICENSE against composer.json](licence-file-vs-composer.md) | How often do the two places a PHP project states its licence disagree, and how much of PHP does a count built on one of them miss? | [`licence-file-vs-composer`](../raw-data/extractions/licence-file-vs-composer.md) |
+| [The first two years of a PHP package](package-first-two-years.md) | When does a package stop being a repository and start being used? | [`package-first-two-years`](../raw-data/extractions/package-first-two-years.md) |
 
 Each report lists the extractions it was built from, and each extraction links back to the reports that use it.
 

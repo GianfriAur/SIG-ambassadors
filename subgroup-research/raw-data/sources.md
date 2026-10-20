@@ -85,6 +85,7 @@ One file per extraction, in [`extractions/`](extractions/). Each one describes t
 | [GitHub PHP longevity](extractions/github-php-longevity.md) | [GitHub REST API](#15-github-rest-api) | live | The population above, filtered to what is still active and ranked by `months × log10(stars)`, with start dates corrected from `github_repos.commits` where the export reaches. |
 | [`bigquery-public-data.github_repos`, licences](extractions/github-repos-licences.md) | [BigQuery](#11-google-bigquery) | 2025-10-14 | The licence carried by every PHP repository in the snapshot, under two definitions of what counts as PHP. Licensed projects only, by construction. |
 | [Licence declared in `LICENSE` against `composer.json`](extractions/licence-file-vs-composer.md) | [GitHub REST API](#15-github-rest-api) | live | How often the two places a PHP project can state its licence disagree, sampled across star bands for all fifteen licences. |
+| [The first two years of a Packagist package](extractions/package-first-two-years.md) | [Ecosyste.ms](#13-ecosystems-repos) and Packagist | live | Weekly downloads for the first 104 weeks after a package's first release, graded by how much it ended up being used. |
 
 Note that `bigquery-public-data.stackoverflow` and `stack-exchange-data-explorer.stackoverflow` cover the same data. The Data Explorer one is the current copy; the BigQuery one is kept because a lot of published analysis is built on it.
 
@@ -101,3 +102,4 @@ The results, one file per research question, in [`../reports/`](../reports/). Th
 | [Top 10 long running PHP](../reports/top-long-running-php.md) | Which PHP projects have been running longest and are still running now? | [`github-php-repositories`](extractions/github-php-repositories.md), [`github-php-longevity`](extractions/github-php-longevity.md) |
 | [The licences of the PHP ecosystem](../reports/php-licences.md) | Under what terms is PHP published, and can a company pick a PHP library off the shelf? | [`github-repos-licences`](extractions/github-repos-licences.md) |
 | [LICENSE against composer.json](../reports/licence-file-vs-composer.md) | How often do the two places a PHP project states its licence disagree, and how much of PHP does a count built on one of them miss? | [`licence-file-vs-composer`](extractions/licence-file-vs-composer.md) |
+| [The first two years of a PHP package](../reports/package-first-two-years.md) | When does a package stop being a repository and start being used? | [`package-first-two-years`](extractions/package-first-two-years.md) |
