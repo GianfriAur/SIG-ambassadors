@@ -25,9 +25,6 @@ Compared with `github_repos` this is a **small** dataset, tens of gigabytes rath
 | `post_history` | one row per revision | `id`, `post_id`, `post_history_type_id`, `creation_date`, `text` |
 | `post_links` | one row per link between posts | `id`, `post_id`, `related_post_id`, `link_type_id` |
 
-> [!important]
-> the query reported here needs to be reasoned and refined
-
 ```sql
 WITH totals AS (
   -- Denominator: all questions. Normalising matters, site-wide volume

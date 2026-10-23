@@ -17,9 +17,6 @@ Two definitions of "a PHP repository" are reported side by side, because they di
 
 Both tables are small, so no partition filter is needed and the query is cheap.
 
-> [!important]
-> the query reported here needs to be reasoned and refined
-
 ```sql
 WITH languages AS (
   SELECT

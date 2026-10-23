@@ -2,7 +2,7 @@
 
 **data freshness: 2025-10-14 05:11:35.999 UTC. query run: 2026-10-02**
 
-> Real query results rather than assumed metrics. Every figure here is a share of **licensed** projects: the dataset holds only repositories GitHub already classified as open source, so projects without a licence are absent rather than counted as zero.
+> Every figure here is a share of **licensed** projects: the dataset holds only repositories GitHub already classified as open source, so projects without a licence are absent rather than counted as zero.
 
 **Question:** under what terms is PHP published, and can a company pick a PHP library off the shelf without calling a lawyer?
 

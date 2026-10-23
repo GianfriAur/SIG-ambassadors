@@ -43,9 +43,6 @@ Two further detections are dropped from a second, stricter shop count. `Squaresp
 
 Crawl dates follow the almanac so the numbers line up with the chapters: `2025-07-01`, `2024-06-01`, `2023-06-01`, `2022-06-01`, `2021-07-01`.
 
-> [!important]
-> the queries reported here need to be reasoned and refined
-
 ## Query 1: totals
 
 Site counts, both shop definitions, and the WordPress family broken out.

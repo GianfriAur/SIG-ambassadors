@@ -2,8 +2,6 @@
 
 **crawls: 2023-06-01, 2024-06-01, 2025-06-01, mobile, root pages only. data freshness: 2026-08-17 23:14:05.000 UTC. query run: 2026-09-28**
 
-> These are assumed metrics and should not be treated as final. The query behind them still needs to be reasoned and refined.
-
 **Question:** what share of the sites the HTTP Archive crawls is served by PHP, and which way is it moving?
 
 **Extractions:** [`httparchive.crawl`](../raw-data/extractions/httparchive-crawl.md)
@@ -31,6 +29,6 @@ Including `desktop` as well as `mobile`, or the secondary pages alongside the ro
 
 The total shrinks from one year to the next, 16.6M origins down to 15.5M. The set of sites crawled is not fixed, so the column to look at is the share and not the counts.
 
-The same crawl is broken down by application in [The PHP applications behind the web](php-applications-on-the-web.md), which carries real query output rather than assumed metrics.
+The same crawl is broken down by application in [The PHP applications behind the web](php-applications-on-the-web.md).
 
 Back to the [reports index](README.md) or the [source list](../raw-data/sources.md).

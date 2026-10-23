@@ -91,7 +91,7 @@ Note that `bigquery-public-data.stackoverflow` and `stack-exchange-data-explorer
 
 ## 3 Reports
 
-The results, one file per research question, in [`../reports/`](../reports/). The figures are a first draft: the queries behind them still need to be reasoned and refined.
+The results, one file per research question, in [`../reports/`](../reports/).
 
 | Report | Question | Built from |
 |---|---|---|

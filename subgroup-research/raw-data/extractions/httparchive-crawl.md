@@ -40,9 +40,6 @@ Each page is tested in two configurations, desktop and mobile, and since April 2
 | `features` | repeated RECORD | Blink features used by the page |
 | `metadata` | JSON | Additional metadata about the test |
 
-> [!important]
-> the query reported here needs to be reasoned and refined
-
 ```sql
 WITH sites AS (
   SELECT

@@ -19,9 +19,6 @@ It is suited to questions such as "how many projects import this library", "how 
 | `licenses` | one row per repository | `repo_name`, `license` |
 | `sample_*` | reduced subsets of the tables above | same schemas |
 
-> [!important]
-> the query reported here needs to be reasoned and refined
-
 ```sql
 WITH
 -- All repos GitHub Linguist tags as containing PHP.

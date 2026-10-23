@@ -25,8 +25,6 @@ The engine is SQL Server, so the dialect is T-SQL and the schema follows the pub
 | `PostLinks` | one row per link between posts | `Id`, `PostId`, `RelatedPostId`, `LinkTypeId` |
 
 > `PostTypeId = 1` is a question and `PostTypeId = 2` an answer. `Posts.Tags` does carry the tags as a single string, but joining through `PostTags` and `Tags` is the reliable way to match a tag exactly.
-> [!important]
-> the query reported here needs to be reasoned and refined
 
 ```sql
 WITH Totals AS (

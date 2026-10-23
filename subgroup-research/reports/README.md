@@ -2,8 +2,6 @@
 
 The results of the raw-data extractions, one file per research question.
 
-> Most of these are assumed metrics and should not be treated as final. The queries behind them still need to be reasoned and refined. Where a report carries real query output it says so at the top, with the date of the run.
-
 | Report | Question | Built from |
 |---|---|---|
 | [PHP's share of Stack Overflow questions](php-share-of-stackoverflow.md) | How has the volume of PHP questions, and PHP's share of all questions, moved over time? | [`stackoverflow-sede`](../raw-data/extractions/stackoverflow-sede.md), [`stackoverflow-bigquery`](../raw-data/extractions/stackoverflow-bigquery.md) |

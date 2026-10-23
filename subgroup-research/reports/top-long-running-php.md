@@ -2,7 +2,7 @@
 
 **population collected: 2026-10-02. first commits: `bigquery-public-data.github_repos`, snapshot 2025-10-14**
 
-> Real query results rather than assumed metrics. Start dates come from two sources of unequal quality and every row says which it used. Read [What is wrong with these numbers](#what-is-wrong-with-these-numbers) before quoting a position.
+> Start dates come from two sources of unequal quality and every row says which it used. Read [What is wrong with these numbers](#what-is-wrong-with-these-numbers) before quoting a position.
 
 **Question:** which PHP projects have been running longest and are still running now?
 
