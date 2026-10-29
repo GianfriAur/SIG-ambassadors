@@ -217,7 +217,7 @@ ORDER BY parent_sites DESC;
 
 ## Results
 
-**crawl: 2025-07-01, mobile, root pages only. query run: 2026-09-28**
+**crawl used: 2025-07-01, mobile, root pages only. latest crawl available: 2026-08-17. query run: 2026-09-28**
 
 The numbers are in [The PHP applications behind the web](../../reports/php-applications-on-the-web.md), next to [PHP on the public web](../../reports/php-on-the-public-web.md), which counts the same crawl by the plain `PHP` flag.
 

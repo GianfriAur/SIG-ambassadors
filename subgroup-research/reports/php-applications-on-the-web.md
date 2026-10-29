@@ -1,6 +1,6 @@
 # The PHP applications behind the web
 
-**crawl: 2025-07-01, mobile, root pages only. data freshness: 2026-08-17 23:14:05.000 UTC. query run: 2026-09-28**
+**crawl used: 2025-07-01, mobile, root pages only. latest crawl available: 2026-08-17. query run: 2026-09-28**
 
 **Question:** the crawl says PHP is on half the web. Half the web running *what*? Which named applications account for it, and how much of the CMS and ecommerce layer do they hold?
 
