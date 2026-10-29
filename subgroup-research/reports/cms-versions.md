@@ -1,10 +1,12 @@
-# Which version of WordPress, Drupal and Magento is actually running
+# Which version of WordPress, Drupal and Magento is actually running, 2025
 
 **crawl used: 2025-07-01, mobile, root pages only. latest crawl available: 2026-08-17. query run: 2026-10-27**
 
 **Question:** PHP applications carry a reputation for being left unpatched. The crawl can check it, because the version is often sitting in the page.
 
 **Extractions:** [`httparchive.crawl`, CMS versions](../raw-data/extractions/httparchive-cms-versions.md)
+
+The same measurement one year later is in [the 2026 crawl](cms-versions-2026.md).
 
 ## How many sites say which version they run
 
@@ -100,6 +102,6 @@ It is reported because leaving it out would hide that the question cannot be ans
 
 **The crawl sees public home pages.** Software that does not sit on one is invisible: phpMyAdmin appears on five sites in the entire crawl, which says nothing about phpMyAdmin and everything about what HTTP Archive looks at.
 
-**One crawl, one configuration.** 2025-07-01, mobile, root pages only, matching [The PHP applications behind the web](php-applications-on-the-web.md) so the site counts are comparable. Nothing here is a time series, and the interesting version of this report would be the same query across several years.
+**One crawl, one configuration.** 2025-07-01, mobile, root pages only, matching [The PHP applications behind the web](php-applications-on-the-web.md) so the site counts are comparable. Nothing here is a time series. [The 2026 crawl](cms-versions-2026.md) repeats the measurement on the same day of the next year.
 
 Back to the [reports index](README.md) or the [source list](../raw-data/sources.md).
